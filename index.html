@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Islands of Hawaii</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com"> 
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Vollkorn:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- 'data- is a prefix declaring a variable insdie a tag; when the tag is brought into JS,the varible comes with' -->
+	<div id="hero">
+		<img data-depth="0.25" src="img/background.jpg">
+		<img data-depth="0.5" src="img/middleground.png">
+		<img data-depth="1" src="img/foreground.png">
+		<h1 data-depth="1.5">The Islands of Hawaii</h1>
+	</div>
+
+	<div id="content">
+		<p>The state of Hawaii encompasses nearly the entire volcanic Hawaiian Island chain, which comprises hundreds of islands spread over 1,500 miles. At the southeastern end of the archipelago, the eight “main islands” are (from the northwest to southeast) Ni’ihau, Kaua’i, O’ahu, Moloka’i, Lāna’i, Kaho’olawe, Maui and the island of Hawai’i. The last is the largest and is often called “The Big Island” to avoid confusion with the state as a whole. The archipelago is physiographically and ethnologically part of the Polynesian subregion of Oceania.</p>
+		<p>It is the only U.S. state outside North America, the only island state, and the only state in the tropics.</p>
+
+		<h2 class="island-header" style="background-image: url(img/maui.jpg)">Maui</h2>
+		<p>
+			The island of Maui is the second-largest of the Hawaiian Islands at 727.2 square miles and is the 17th largest island in the United States. Maui is part of the State of Hawaii and is the largest of Maui County’s four islands, which include Molokaʻi, Lānaʻi, and unpopulated Kahoʻolawe.
+		</p>
+		<p>Maui’s diverse landscapes are the result of a unique combination of geology, topography, and climate. Each volcanic cone in the chain of the Hawaiian Islands is built of dark, iron-rich/quartz-poor rocks, which poured out of thousands of vents as highly fluid lava over a period of millions of years. Several of the volcanoes were close enough to each other that lava flows on their flanks overlapped one another, merging into a single island. Maui is such a “volcanic doublet,” formed from two shield volcanoes that overlapped one another to form an isthmus between them.
+		</p>
+
+		<p>Text from <a href="https://wikipedia.org/wiki/Hawaii" target="_blank">Wikipedia</a></p>
+	</div>
+
+
+	<script src="js/gsap.min.js"></script>
+	<script src="js/ScrollTrigger.min.js"></script>
+	<script src="js/parallax.js"></script>
+</body>
+</html>
